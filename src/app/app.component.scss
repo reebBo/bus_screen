@@ -1,0 +1,28 @@
+.container {
+    margin-top: 2em;
+    height: 90vh;
+    overflow: scroll;
+    background: rgb(90, 88, 88);
+    border-radius: 6px;
+    box-shadow: rgba(163, 24, 24, 0.07) 0px 1px 1px, rgba(150, 21, 21, 0.07) 0px 2px 2px, rgba(206, 44, 44, 0.07) 0px 4px 4px, rgba(206, 44, 44, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  }
+
+
+  .container .item:nth-child(even) {
+    background: #CCC;
+  }
+  .container .item:nth-child(odd) {
+    background: rgb(131, 128, 128);
+  }
+
+  .item {
+    font-size: 6em;
+  }
+
+  span:nth-child(1) {
+    color:rgb(66, 55, 55);
+  }
+
+  span:nth-child(2) {
+    margin-left: auto;
+  }
