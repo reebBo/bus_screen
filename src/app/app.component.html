@@ -1,11 +1,9 @@
 <div class="container p-1">
   <div *ngFor="let obj of allHours" class="item p-3 d-flex">
     <span> {{obj.busNo}}</span>
-    <span> {{obj.busTime}}</span>
+    <span> {{obj.busTime|date:'shortTime'}}</span>
 
   </div>
 
   <router-outlet></router-outlet>
 </div>
-
- 
